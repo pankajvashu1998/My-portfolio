@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pankaj Kumar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ----------------------------Navbar Section-------------------------------- -->
+    <nav class="navbar-container">
+      <h1>Pankaj Kumar</h1>
+      <ul>
+        <li><a href="#header-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <span>
+        <i class="fa-solid fa-moon showMode" onclick="darkMode('darkMode')"></i>
+        <i
+          class="fa-solid fa-circle-half-stroke"
+          onclick="lightMode('lightMode')"
+        ></i>
+      </span>
+    </nav>
+
+    <!-- -------------------------------Header Section-------------------------------------- -->
+    <section class="header-section">
+      <div class="header-container" id="header-section">
+        <div class="header-content">
+          <h3>Full Stack Web Developer</h3>
+          <h1>Hi, I'm <span>Pankaj Kumar</span> from India (Bihar)</h1>
+          <p>
+            As a versatile IT professional, i possess a diverse skill set
+            encompassing Web Development technologies. My expertise including
+            proficiency in HTML, CSS, JavaScript, Tailwind CSS, Reac Js, Node
+            Js, Express Js, MongoDB, SQL, Java programming. (MERN Stack Web
+            Development)
+          </p>
+          <button>
+            <a href="/image/Pankaj Kumar (Resume).pdf" target="_blank"
+              >Download CV</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------About Section---------------------------------------- -->
+
+    <section class="about-section" id="about-section">
+      <div class="about-container">
+        <div class="about-row">
+          <div class="col-1">
+            <h1>About Me</h1>
+            <p>
+              As a versatile IT professional, I possess a diverse skill set
+              encompassing web development technologies. My expertise including
+              proficiency in programming skills Java, HTML, CSS, JavaScript,
+              Tailwind CSS, React JS , Node JS, Express JS, C# programming, SQL
+              database and MongoDB (MERN Stack). Currently pursuing a BCA from
+              Maulana Mazharul Haque Arabic & Persian University Patna, I have
+              also completed ADCA and DFA Certifications with high percentages.
+              I have honed my ability to communicate complex technical concepts
+              effectively.
+            </p>
+            <hr />
+            <div class="skill-container">
+              <ul>
+                <li
+                  class="tab-link active-link"
+                  onclick="activeLink('Education')"
+                >
+                  Education
+                </li>
+                <li class="tab-link" onclick="activeLink('Skills')">Skills</li>
+                <li class="tab-link" onclick="activeLink('Experience')">
+                  Experience
+                </li>
+                <li class="tab-link" onclick="activeLink('Achievement')">
+                  Achievement
+                </li>
+              </ul>
+            </div>
+            <div class="skill-content" id="Skills">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>React JS</li>
+                <li>Node Js</li>
+                <li>Express JS</li>
+                <li>MongoDB</li>
+                <li>SQL</li>
+                <li>Java programming</li>
+              </ul>
+            </div>
+
+            <div class="skill-content active-skill-content" id="Education">
+              <ul>
+                <li>
+                  <span class="education">Graduation</span> : BCA - From Maulana
+                  Mazharul Haque Arabic & Persian University, Patna
+                </li>
+                <li>
+                  <span class="education">Class-XII</span>:
+                  <span>Board Name</span> : Bihar <br />
+                  <span>Medium</span> : Hindi <br />
+                  <span>Year of passing</span> : 2019 <br />
+                  <span>Score</span>: 50.4%
+                </li>
+                <li>
+                  <span class="education">Class-X</span>:
+                  <span>Board Name</span> : Bihar <br />
+                  <span>Medium</span> : Hindi <br />
+                  <span>Year of passing</span> : 2015 <br />
+                  <span>Score</span>: 52.8%
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill-content" id="Experience">
+              <ul type="circle">
+                <li class="skill-type">Freelancer (June 2023 – Feb 2024)</li>
+                <ul>
+                  <li>
+                    Create complex financial model and dashboard using advance
+                    formula (VLOOKUP, INDEX- MATCH, SUMIF)
+                  </li>
+                  <li>
+                    Implemented data validation and conditional formatting for
+                    error- free data entry
+                  </li>
+                  <li>
+                    Utilized pivot tables and charts for dynamic data
+                    summarization and reporting
+                  </li>
+                  <li>
+                    Delivered projects involving MS Excel and PowerPoint for
+                    management and presentations
+                  </li>
+                  <li>Work dependently for one year as a web developer</li>
+                  <li>Specialized in creating websites using MERN Stack</li>
+                </ul>
+              </ul>
+            </div>
+
+            <div class="skill-content" id="Achievement">
+              <ul>
+                <li>
+                  Professional level typing speed (Hindi – 30 WPM with 95%
+                  accuracy, English – 45 WPM with 98% accuracy)
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="col-2-image-container">
+              <img src="/image/header.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------- Services Section ----------------------------------- -->
+    <section class="service-section">
+      <div class="service-container" id="service">
+        <h1 class="service-sec">Services</h1>
+        <div class="service-row">
+          <div class="cols-1">
+            <img src="/image/Frontend.webp" alt="" />
+            <div class="cols-contents">
+              <h1 class="service-name">Frontend Development</h1>
+              <h2 class="server-2name">User Interface (UI):</h2>
+              <p>
+                The frontend is responsible for designing and implementing the
+                UI, which is what users see and interact with.
+              </p>
+            </div>
+          </div>
+          <div class="cols-1">
+            <img src="/image/Backend.webp" alt="" />
+            <div class="cols-contents">
+              <h1 class="service-name">Backend Development</h1>
+              <h2 class="server-2name">Server-side logic:</h2>
+              <p>
+                This involves the code that processes user requests, handles
+                business logic, and executes operations behind the scenes.
+              </p>
+            </div>
+          </div>
+          <div class="cols-1">
+            <img src="/image/full-stack-development.png" alt="" />
+            <div class="cols-contents">
+              <h1 class="service-name">Full Stack Web Development</h1>
+              <p>
+                These individuals have a comprehensive understanding of both
+                front-end and back-end technologies, allowing them to build
+                complete web applications from the ground up. They can design,
+                develop, test, and deploy all aspects of a web application.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------Contact Us------------------------------------------- -->
+    <section class="contact-section">
+      <div class="contact-container" id="contact">
+        <div class="cols-contact">
+          <h1>Pankaj Kumar</h1>
+          <p>Full Stack Web Developer</p>
+          <p>Fully Responsible Web Application</p>
+        </div>
+        <div class="cols-contact">
+          <h1>Social Media</h1>
+          <p>
+            Github: <br /><a
+              href="https://github.com/pankajvashu1998"
+              target="_blank"
+              >https://github.com/pankajvashu1998</a
+            >
+          </p>
+
+          <p>
+            Linkedin: <br /><a
+              href="https://www.linkedin.com/in/pankajkumar1234/"
+              target="_blank"
+              >https://www.linkedin.com/in/pankajkumar1234</a
+            >
+          </p>
+        </div>
+        <div class="cols-contact">
+          <h1>Contact Us</h1>
+          <p>Mobile: +917654470477</p>
+          <p>Email: pk85764798@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
